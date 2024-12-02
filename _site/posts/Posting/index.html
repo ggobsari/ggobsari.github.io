@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.4" />
-<meta property="og:title" content="프로그래머스 Lv0 대소문자 바꿔서 출력하기" />
+<meta property="og:title" content="프로그래머스 Lv0 배열 만들기 2" />
 <meta property="og:locale" content="ko_KR" />
-<meta name="description" content="소문자 –&gt; 대문자 : toUpperCase() 대문자 –&gt; 소문자 : toLowerCase()" />
-<meta property="og:description" content="소문자 –&gt; 대문자 : toUpperCase() 대문자 –&gt; 소문자 : toLowerCase()" />
+<meta name="description" content="int값을 문자열로 바꾸는 생각까지는 했는데, “0”과 “5”로 이루어졌는지 검증하는 단계에서 문자열을 toCharArray()를 통해 다시 반복문 돌릴 생각은 하지 못했다. 다음에 다시 풀 때 이 부분만 주의하고 다시 풀어보면 쉬울 듯 하다." />
+<meta property="og:description" content="int값을 문자열로 바꾸는 생각까지는 했는데, “0”과 “5”로 이루어졌는지 검증하는 단계에서 문자열을 toCharArray()를 통해 다시 반복문 돌릴 생각은 하지 못했다. 다음에 다시 풀 때 이 부분만 주의하고 다시 풀어보면 쉬울 듯 하다." />
 <link rel="canonical" href="http://localhost:4000/posts/Posting/" />
 <meta property="og:url" content="http://localhost:4000/posts/Posting/" />
 <meta property="og:site_name" content="꼽사리구나의 블로그" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-11-29T00:00:00+09:00" />
+<meta property="article:published_time" content="2024-12-02T00:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="프로그래머스 Lv0 대소문자 바꿔서 출력하기" />
+<meta property="twitter:title" content="프로그래머스 Lv0 배열 만들기 2" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-11-29T00:00:00+09:00","datePublished":"2024-11-29T00:00:00+09:00","description":"소문자 –&gt; 대문자 : toUpperCase() 대문자 –&gt; 소문자 : toLowerCase()","headline":"프로그래머스 Lv0 대소문자 바꿔서 출력하기","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Posting/"},"url":"http://localhost:4000/posts/Posting/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-12-02T00:00:00+09:00","datePublished":"2024-12-02T00:00:00+09:00","description":"int값을 문자열로 바꾸는 생각까지는 했는데, “0”과 “5”로 이루어졌는지 검증하는 단계에서 문자열을 toCharArray()를 통해 다시 반복문 돌릴 생각은 하지 못했다. 다음에 다시 풀 때 이 부분만 주의하고 다시 풀어보면 쉬울 듯 하다.","headline":"프로그래머스 Lv0 배열 만들기 2","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Posting/"},"url":"http://localhost:4000/posts/Posting/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>프로그래머스 Lv0 대소문자 바꿔서 출력하기 | 꼽사리구나의 블로그
+  <title>프로그래머스 Lv0 배열 만들기 2 | 꼽사리구나의 블로그
   </title>
 
   <!--
@@ -435,7 +435,7 @@
         
           
             
-              <span>프로그래머스 Lv0 대소문자 바꿔서 출력하기</span>
+              <span>프로그래머스 Lv0 배열 만들기 2</span>
             
 
           
@@ -550,7 +550,7 @@
 
 <article class="px-1" data-toc="false">
   <header>
-    <h1 data-toc-skip>프로그래머스 Lv0 대소문자 바꿔서 출력하기</h1>
+    <h1 data-toc-skip>프로그래머스 Lv0 배열 만들기 2</h1>
     
 
     <div class="post-meta text-muted">
@@ -567,13 +567,13 @@
 
 <time
   
-  data-ts="1732806000"
+  data-ts="1733065200"
   data-df="YYYY/MM/DD"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  2024/11/29
+  2024/12/02
 </time>
 
       </span>
@@ -592,13 +592,13 @@
 
 <time
   
-  data-ts="1732838400"
+  data-ts="1733097600"
   data-df="YYYY/MM/DD"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  2024/11/29
+  2024/12/02
 </time>
 
         </span>
@@ -645,7 +645,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="190 단어"
+  title="313 단어"
 >
   <em>1 분</em>읽는 시간</span>
 
@@ -657,19 +657,40 @@
   
 
   <div class="content">
-    <p>소문자 –&gt; 대문자 : toUpperCase()
-대문자 –&gt; 소문자 : toLowerCase()</p>
+    <p>int값을 문자열로 바꾸는 생각까지는 했는데, “0”과 “5”로 이루어졌는지 검증하는 단계에서 문자열을 toCharArray()를 통해 다시 반복문 돌릴 생각은 하지 못했다.
+다음에 다시 풀 때 이 부분만 주의하고 다시 풀어보면 쉬울 듯 하다.</p>
 
-<p>toCharArray()란?
-String 문자열을 char형 배열로 바꿔서 반환해주는 메소드
-“test”라는 문자열이 있으면
-arr[0] = ‘t’
-arr[1] = ‘e’
-arr[2] = ‘s’
-arr[3] = ‘t’</p>
+<p>int값을 String으로 변환하는 방법</p>
+<ol>
+  <li>String.valueOf()</li>
+  <li>Integer.toString()</li>
+</ol>
 
-<p>charAt 함수
-String 타입의 데이터(문자열)에서 특정 문자를 char 타입으로 변환할 때 사용하는 함수</p>
+<p>String을 int로 변환하는 방법</p>
+<ol>
+  <li>Integer.parseInt()</li>
+  <li>Integer.valueOf()</li>
+</ol>
+
+<p>int값을 단일 문자(char)로 변환하는 방법
+int 값이 한 자리 숫자인 경우 문자 ‘0’을 더하면 해당 숫자를 문자로 변환할 수 있다.</p>
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="kt">int</span> <span class="n">num</span> <span class="o">=</span> <span class="mi">5</span><span class="o">;</span>
+<span class="kt">char</span> <span class="n">ch</span> <span class="o">=</span> <span class="o">(</span><span class="kt">char</span><span class="o">)</span> <span class="o">(</span><span class="n">number</span> <span class="o">+</span> <span class="sc">'0'</span><span class="o">);</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>char를 int로 변환하는 방법
+char에서 ‘0’을 빼면 해당 숫자의 정수값을 얻을 수 있다.</p>
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="kt">char</span> <span class="n">ch</span> <span class="o">=</span> <span class="sc">'5'</span><span class="o">;</span>
+<span class="kt">int</span> <span class="n">number</span> <span class="o">=</span> <span class="n">ch</span> <span class="o">-</span> <span class="sc">'0'</span><span class="o">;</span>
+</pre></td></tr></tbody></table></code></div></div>
 
 <div class="language-java highlighter-rouge"><div class="code-header">
         <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
@@ -694,30 +715,46 @@ String 타입의 데이터(문자열)에서 특정 문자를 char 타입으로 �
 19
 20
 21
-</pre></td><td class="rouge-code"><pre><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="o">;</span>
+22
+23
+24
+25
+26
+27
+28
+29
+30
+</pre></td><td class="rouge-code"><pre><span class="kn">import</span> <span class="nn">java.util.*</span><span class="o">;</span>
 
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-        <span class="nc">Scanner</span> <span class="n">sc</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Scanner</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
-        <span class="nc">String</span> <span class="n">a</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="na">next</span><span class="o">();</span>
+<span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="nf">solution</span><span class="o">(</span><span class="kt">int</span> <span class="n">l</span><span class="o">,</span> <span class="kt">int</span> <span class="n">r</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">answer</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
         
-        <span class="nc">String</span> <span class="n">answer</span> <span class="o">=</span> <span class="s">""</span><span class="o">;</span>
-        
-        <span class="kt">char</span><span class="o">[]</span> <span class="n">arr</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="na">toCharArray</span><span class="o">();</span>
-        
-        <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">arr</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
-            <span class="k">if</span><span class="o">(</span><span class="nc">Character</span><span class="o">.</span><span class="na">isUpperCase</span><span class="o">(</span><span class="n">arr</span><span class="o">[</span><span class="n">i</span><span class="o">])){</span>
-                <span class="n">answer</span> <span class="o">+=</span> <span class="nc">Character</span><span class="o">.</span><span class="na">toLowerCase</span><span class="o">(</span><span class="n">arr</span><span class="o">[</span><span class="n">i</span><span class="o">]);</span>
-            <span class="o">}</span> <span class="k">else</span><span class="o">{</span>
-                <span class="n">answer</span> <span class="o">+=</span> <span class="nc">Character</span><span class="o">.</span><span class="na">toUpperCase</span><span class="o">(</span><span class="n">arr</span><span class="o">[</span><span class="n">i</span><span class="o">]);</span>
+        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">l</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">r</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+            <span class="nc">String</span> <span class="n">number</span> <span class="o">=</span> <span class="nc">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+            <span class="kt">boolean</span> <span class="n">isValid</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+            
+            <span class="k">for</span> <span class="o">(</span><span class="kt">char</span> <span class="n">digit</span> <span class="o">:</span> <span class="n">number</span><span class="o">.</span><span class="na">toCharArray</span><span class="o">()){</span>
+                <span class="k">if</span> <span class="o">(</span><span class="n">digit</span> <span class="o">!=</span> <span class="sc">'0'</span> <span class="o">&amp;&amp;</span> <span class="n">digit</span> <span class="o">!=</span> <span class="sc">'5'</span><span class="o">){</span>
+                    <span class="n">isValid</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+                    <span class="k">break</span><span class="o">;</span>
+                <span class="o">}</span>
             <span class="o">}</span>
+            
+            <span class="k">if</span><span class="o">(</span><span class="n">isValid</span><span class="o">){</span>
+                <span class="n">answer</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+            <span class="o">}</span>
+            
         <span class="o">}</span>
-        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">answer</span><span class="o">);</span>
+        
+        <span class="k">if</span><span class="o">(</span><span class="n">answer</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">()){</span>
+            <span class="n">answer</span><span class="o">.</span><span class="na">add</span><span class="o">(-</span><span class="mi">1</span><span class="o">);</span>
+        <span class="o">}</span>
+        
+        <span class="k">return</span> <span class="n">answer</span><span class="o">;</span>
     <span class="o">}</span>
 <span class="o">}</span>
 </pre></td></tr></tbody></table></code></div></div>
-
-<p>아스키코드로도 풀이가 가능할 듯 하다.</p>
 
   </div>
 
@@ -786,21 +823,21 @@ String 타입의 데이터(문자열)에서 특정 문자를 char 타입으로 �
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lv0%20%EB%8C%80%EC%86%8C%EB%AC%B8%EC%9E%90%20%EB%B0%94%EA%BF%94%EC%84%9C%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%20-%20%EA%BC%BD%EC%82%AC%EB%A6%AC%EA%B5%AC%EB%82%98%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FPosting%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lv0%20%EB%B0%B0%EC%97%B4%20%EB%A7%8C%EB%93%A4%EA%B8%B0%202%20-%20%EA%BC%BD%EC%82%AC%EB%A6%AC%EA%B5%AC%EB%82%98%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FPosting%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lv0%20%EB%8C%80%EC%86%8C%EB%AC%B8%EC%9E%90%20%EB%B0%94%EA%BF%94%EC%84%9C%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%20-%20%EA%BC%BD%EC%82%AC%EB%A6%AC%EA%B5%AC%EB%82%98%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FPosting%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lv0%20%EB%B0%B0%EC%97%B4%20%EB%A7%8C%EB%93%A4%EA%B8%B0%202%20-%20%EA%BC%BD%EC%82%AC%EB%A6%AC%EA%B5%AC%EB%82%98%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FPosting%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FPosting%2F&text=%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lv0%20%EB%8C%80%EC%86%8C%EB%AC%B8%EC%9E%90%20%EB%B0%94%EA%BF%94%EC%84%9C%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%20-%20%EA%BC%BD%EC%82%AC%EB%A6%AC%EA%B5%AC%EB%82%98%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FPosting%2F&text=%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lv0%20%EB%B0%B0%EC%97%B4%20%EB%A7%8C%EB%93%A4%EA%B8%B0%202%20-%20%EA%BC%BD%EC%82%AC%EB%A6%AC%EA%B5%AC%EB%82%98%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -850,6 +887,13 @@ String 타입의 데이터(문자열)에서 특정 문자를 char 타입으로 �
   <section id="access-lastmod">
     <h2 class="panel-heading">최근 업데이트</h2>
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/Posting/">프로그래머스 Lv0 배열 만들기 2</a>
+        </li>
       
         
         
@@ -995,6 +1039,10 @@ String 타입의 데이터(문자열)에서 특정 문자를 char 타입으로 �
 
   
     
+  
+
+  
+    
 
 
 
@@ -1015,9 +1063,13 @@ String 타입의 데이터(문자열)에서 특정 문자를 char 타입으로 �
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="이전 글">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/Posting/"
+      class="btn btn-outline-primary"
+      aria-label="이전 글"
+    >
+      <p>프로그래머스 Lv0 대소문자 바꿔서 출력하기</p>
+    </a>
   
 
   

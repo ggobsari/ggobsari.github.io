@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "프로그래머스 Lv0 배열 만들기 2",
+    "url": "/posts/Posting/",
+    "categories": "코딩테스트, 프로그래머스",
+    "tags": "코딩테스트, 프로그래머스, Lv0",
+    "date": "2024-12-02 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "int값을 문자열로 바꾸는 생각까지는 했는데, “0”과 “5”로 이루어졌는지 검증하는 단계에서 문자열을 toCharArray()를 통해 다시 반복문 돌릴 생각은 하지 못했다.다음에 다시 풀 때 이 부분만 주의하고 다시 풀어보면 쉬울 듯 하다.int값을 String으로 변환하는 방법  String.valueOf()  Integer.toString()St...",
+    "content": "int값을 문자열로 바꾸는 생각까지는 했는데, “0”과 “5”로 이루어졌는지 검증하는 단계에서 문자열을 toCharArray()를 통해 다시 반복문 돌릴 생각은 하지 못했다.다음에 다시 풀 때 이 부분만 주의하고 다시 풀어보면 쉬울 듯 하다.int값을 String으로 변환하는 방법  String.valueOf()  Integer.toString()String을 int로 변환하는 방법  Integer.parseInt()  Integer.valueOf()int값을 단일 문자(char)로 변환하는 방법int 값이 한 자리 숫자인 경우 문자 ‘0’을 더하면 해당 숫자를 문자로 변환할 수 있다.int num = 5;char ch = (char) (number + '0');char를 int로 변환하는 방법char에서 ‘0’을 빼면 해당 숫자의 정수값을 얻을 수 있다.char ch = '5';int number = ch - '0';import java.util.*;class Solution {    public ArrayList&lt;Integer&gt; solution(int l, int r) {        ArrayList&lt;Integer&gt; answer = new ArrayList&lt;&gt;();                for (int i = l; i &lt;= r; i++){            String number = String.valueOf(i);            boolean isValid = true;                        for (char digit : number.toCharArray()){                if (digit != '0' &amp;&amp; digit != '5'){                    isValid = false;                    break;                }            }                        if(isValid){                answer.add(i);            }                    }                if(answer.isEmpty()){            answer.add(-1);        }                return answer;    }}"
+  },
+  
+  {
     "title": "프로그래머스 Lv0 대소문자 바꿔서 출력하기",
     "url": "/posts/Posting/",
     "categories": "코딩테스트, 프로그래머스",

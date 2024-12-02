@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>꼽사리구나의 블로그</title>
   <subtitle>공부한 것을 정리하는 나만의 블로그</subtitle>
-  <updated>2024-11-30T16:37:25+09:00</updated>
+  <updated>2024-12-02T22:25:02+09:00</updated>
   <author>
     <name>김현우</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,53 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>프로그래머스 Lv0 배열 만들기 2</title>
+    <link href="http://localhost:4000/posts/Posting/" rel="alternate" type="text/html" title="프로그래머스 Lv0 배열 만들기 2" />
+    <published>2024-12-02T00:00:00+09:00</published>
+  
+    <updated>2024-12-02T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Posting/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Posting/" />
+    <author>
+      <name>김현우</name>
+    </author>
+
+  
+    
+    <category term="코딩테스트" />
+    
+    <category term="프로그래머스" />
+    
+  
+
+  <summary>int값을 문자열로 바꾸는 생각까지는 했는데, “0”과 “5”로 이루어졌는지 검증하는 단계에서 문자열을 toCharArray()를 통해 다시 반복문 돌릴 생각은 하지 못했다.
+다음에 다시 풀 때 이 부분만 주의하고 다시 풀어보면 쉬울 듯 하다.
+
+int값을 String으로 변환하는 방법
+
+  String.valueOf()
+  Integer.toString()
+
+
+String을 int로 변환하는 방법
+
+  Integer.parseInt()
+  Integer.valueOf()
+
+
+int값을 단일 문자(char)로 변환하는 방법
+int 값이 한 자리 숫자인 경우 문자 ‘0’을 더하면 해당 숫자를 문자로 변환할 수 있다.
+int num = 5;
+char ch = (char) (number + &amp;#39;0&amp;#39;);
+
+
+c...</summary>
+
+  </entry>
 
   
   <entry>
