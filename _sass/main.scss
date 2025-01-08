@@ -2,3 +2,13 @@
 @forward 'components';
 @forward 'layout';
 @forward 'pages';
+
+html * {
+  animation: none !important;
+  transition: none !important;
+}
+
+body, div, span, img, a, button {
+  animation: none !important;
+  transition: none !important;
+}

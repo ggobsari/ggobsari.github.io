@@ -20,4 +20,14 @@ last_modified_at: 2025-01-08
 클라이언트에게 전달해주는 역할도 한다.  
 대표적인 웹 서버로는 Apache가 있다.  
 ```정적 컨텐츠 : 단순 HTML문서, CSS, javascript, 이미지, 파일 등 즉시 응답 가능한 컨텐츠```  
-![image](https://github.com/user-attachments/assets/32f480c6-6642-47b0-a0fd-9f86baff8b20)
+![webServer](https://github.com/user-attachments/assets/867b053a-7ead-43df-a8d5-2ba3a4687040)
+
+
+# <span style="color:green">WAS</span>
+***인터넷 상에서 HTTP 프로토콜을 통해 사용자 컴퓨터나 장치에 애플리케이션을 수행해주는 미들웨어로서, 주로 동적 서버 컨텐츠를 수행하는 것으로 웹 서버와 구별이 되며, 주로 데이터베이스 서버와 같이 수행***  
+WAS는 웹 서버와 웹 컨테이너가 합쳐진 형태로써, 웹 서버 단독으로는 처리할 수 없는 <u>데이터베이스의 조회나 다양한 로직 처리가 필요한 동적 컨텐츠를 제공한다.</u>  
+덕분에 사용자의 다양한 요구에 맞는 웹 서비스를 제공할 수 있다.  
+WAS는 JSP, Servlet 구동환경을 제공해주기 때문에 웹 컨테이너 또는 서블릿 컨테이너라고도 불린다.  
+대표적인 WAS 종류로는 Tomcat이 있다.
+```웹 컨테이너 : 웹 서버가 보낸 JSP, PHP 등의 파일을 수행한 결과를 다시 웹 서버로 보내주는 역할```  
+![was](https://github.com/user-attachments/assets/838266f9-b40d-4088-a5cd-94c5e5ff45cb)
