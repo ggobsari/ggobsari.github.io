@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>꼽사리구나의 블로그</title>
   <subtitle>공부한 것을 정리하는 나만의 블로그</subtitle>
-  <updated>2025-01-09T23:44:00+09:00</updated>
+  <updated>2025-01-10T03:31:34+09:00</updated>
   <author>
     <name>김현우</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,41 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>API</title>
+    <link href="http://localhost:4000/posts/API/" rel="alternate" type="text/html" title="API" />
+    <published>2025-01-10T00:00:00+09:00</published>
+  
+    <updated>2025-01-10T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/API/</id>
+    <content type="text/html" src="http://localhost:4000/posts/API/" />
+    <author>
+      <name>김현우</name>
+    </author>
+
+  
+    
+    <category term="CS" />
+    
+    <category term="API" />
+    
+  
+
+  <summary>API란 무엇일까?
+API는 응용 프로그램에서 사용할 수 있도록, 운영 체제나 프로그래밍 언어가 제공하는 기능을 제어할 수 있게 만든 인터페이스를 뜻한다.
+API는 프로그램이 요청할 수 있게 명령 목록을 정리하고, 명령을 받으면 응용프로그램과 상호작용하여 명령에 대한 값을 전달하는 역할을 한다.
+즉, API는 프로그램들이 서로 상호작용하는 것을 도와주는 매개체라고 할 수 있다.
+
+쉽게 생각해보면 앱이나 프로그램이 다른 시스템에 있는 기능이나 데이터를 사용할 수 있게 만들어둔 메뉴판 같은 것이다.
+또 다른 예를 들어보자면, 날씨 앱으로 날씨 데이터를 제공하는 API에 요청을 보낸다고 해보자.
+그렇다면 API는 서버로부터 현재 날씨 정보(데이터)를 받아 앱으로 전달하는 역할을 하는 것이다.
+
+API 핵심 ...</summary>
+
+  </entry>
 
   
   <entry>
@@ -172,46 +207,6 @@ ex) 브라우저에서 파일을 다운받으며 쇼핑, 게임을 할 수 있�
 
 WAS
 인터넷 상에서 HTTP 프로토콜을 통해 사용자 컴퓨터나 장치에 애플리케이션을 수행해주는 미들...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>타임리프</title>
-    <link href="http://localhost:4000/posts/thymeleaf/" rel="alternate" type="text/html" title="타임리프" />
-    <published>2024-12-09T00:00:00+09:00</published>
-  
-    <updated>2025-01-08T00:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/thymeleaf/</id>
-    <content type="text/html" src="http://localhost:4000/posts/thymeleaf/" />
-    <author>
-      <name>김현우</name>
-    </author>
-
-  
-    
-    <category term="스프링" />
-    
-    <category term="타임리프" />
-    
-  
-
-  <summary>타임리프 특징
-
-  서버 사이드 HTML 렌더링(SSR)
-  네츄럴 템플릿
-  스프링 통합 지원
-
-
-“서버 사이드 HTML 렌더링(SSR)”
-타임리프는 백엔드 서버에서 HTML을 동적으로 렌더링 하는 용도로 사용된다.
-
-“네츄럴 템플릿”
-타임리프는 순수 HTML을 최대한 유지하는 특징이 있다.
-타임리프로 작성한 파일은 HTML을 유지하기 때문에 웹 브라우저에서 파일을 직접 열어도 내용을 확인할 수 있고, 서버를 통해 뷰 템플릿을 거치면 동적으로 변경된 결과를 확인할 수 있다.
-JSP를 포함한 다른 뷰 템플릿들은 해당 파일을 열면 소스코드와 HTML이 섞여서 웹 브라우저에서 정상적인 HTML 결과를 확인할 수 없다. 오직 서버를 통해서 렌더링 되고 HTML 응답 결과를 받아야 화면을 확인할 수 있다.
-반...</summary>
 
   </entry>
 
