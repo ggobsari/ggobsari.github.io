@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>꼽사리구나의 블로그</title>
   <subtitle>공부한 것을 정리하는 나만의 블로그</subtitle>
-  <updated>2025-01-10T03:31:34+09:00</updated>
+  <updated>2025-01-10T18:11:02+09:00</updated>
   <author>
     <name>김현우</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>CSR과 SSR</title>
+    <link href="http://localhost:4000/posts/csr-ssr/" rel="alternate" type="text/html" title="CSR과 SSR" />
+    <published>2025-01-10T00:00:00+09:00</published>
+  
+    <updated>2025-01-10T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/csr-ssr/</id>
+    <content type="text/html" src="http://localhost:4000/posts/csr-ssr/" />
+    <author>
+      <name>김현우</name>
+    </author>
+
+  
+    
+    <category term="CS" />
+    
+    <category term="CSR과 SSR" />
+    
+  
+
+  <summary>CSR(Client Side Rendering)
+CSR을 브라우저에서 직접 페이지를 렌더링하는 것을 말한다.
+CSR은 브라우저가 서버에 HTML과 JS 파일을 요청한 후 로드되면 사용자의 상호작용에 따라 자바스크립트를 사용해 동적으로 렌더링한다.
+렌더링 : 실시간으로 웹 사이트가 그려지는 과정
+
+CSR 동작 과정
+
+
+  User가 WebSite 요청을 보낸다.
+  CDN이 html파일과 Js로 접근할 수 있는 링크를 클라이언트로 보낸다.
+  클라이언트는 html과 Js를 다운로드 받는다.
+  다운이 완료된 Js가 실행되고 데이터를 위한 API가 호출된다.
+  서버가 API로부터 요청에 응답한다.
+  API로부터 받아온 데이터를 placeholder 자리에 넣어준다.(페이지는 상호작용이 가능해짐)
+CDN...</summary>
+
+  </entry>
 
   
   <entry>
@@ -170,43 +210,6 @@ ex) 브라우저에서 파일을 다운받으며 쇼핑, 게임을 할 수 있�
 
 일반적으로 하나의 프로그램은 하나 이상의 프로세스를 가지고 있고, 하나의 프로세스는 반드시 하나 이상의 쓰레드가 존재한다.
 ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>웹 서버와 WAS</title>
-    <link href="http://localhost:4000/posts/webServer_was/" rel="alternate" type="text/html" title="웹 서버와 WAS" />
-    <published>2025-01-08T00:00:00+09:00</published>
-  
-    <updated>2025-01-08T00:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/webServer_was/</id>
-    <content type="text/html" src="http://localhost:4000/posts/webServer_was/" />
-    <author>
-      <name>김현우</name>
-    </author>
-
-  
-    
-    <category term="CS" />
-    
-    <category term="WAS" />
-    
-  
-
-  <summary>Web Server
-웹 브라우저 클라이언트로부터 HTTP 요청을 받아들이고 HTML 문서와 같은 웹 페이지를 반환하는 컴퓨터 프로그램
-
-웹 서버란 클라이언트가 웹 브라우저에서 어떠한 페이지 요청을 하면 웹 서버에서 그 요청을 받아 정적 컨텐츠를 제공하는 서버다.
-그렇다고 정적 컨텐츠만 제공하는 것이 아니라 웹 서버가 동적 컨텐츠를 요청 받으면 WAS에게 해당 요청을 넘겨주고, WAS에서 처리한 결과를
-클라이언트에게 전달해주는 역할도 한다.
-대표적인 웹 서버로는 Apache, Nginx가 있다.
-정적 컨텐츠 : 단순 HTML문서, CSS, javascript, 이미지, 파일 등 즉시 응답 가능한 컨텐츠
-
-
-WAS
-인터넷 상에서 HTTP 프로토콜을 통해 사용자 컴퓨터나 장치에 애플리케이션을 수행해주는 미들...</summary>
 
   </entry>
 
