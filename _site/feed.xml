@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>꼽사리구나의 블로그</title>
   <subtitle>공부한 것을 정리하는 나만의 블로그</subtitle>
-  <updated>2025-01-10T18:11:02+09:00</updated>
+  <updated>2025-01-22T13:36:51+09:00</updated>
   <author>
     <name>김현우</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,42 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Spring MVC</title>
+    <link href="http://localhost:4000/posts/springMVC/" rel="alternate" type="text/html" title="Spring MVC" />
+    <published>2025-01-22T00:00:00+09:00</published>
+  
+    <updated>2025-01-22T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/springMVC/</id>
+    <content type="text/html" src="http://localhost:4000/posts/springMVC/" />
+    <author>
+      <name>김현우</name>
+    </author>
+
+  
+    
+    <category term="Spring" />
+    
+    <category term="MVC" />
+    
+  
+
+  <summary>Spring MVC
+MVC2 모델이 기반인 웹 모듈
+프론트 컨트롤러(Front Controller)가 우선적으로 클라이언트로부터 모든 요청을 받게 되며, 실제 요청의 처리는 개별 컨트롤러 클래스로 위임을 한다.
+개별 컨트롤러 클래스는 핸들러(Handler)라고도 하며, DI를 통해 생성해둔 Bean을 통해 비즈니스 로직 처리 결과를 Model에 담아 다시 프론트 컨트롤러로 보낸다.
+프론트 컨트롤러는 받은 Model을 알맞은 View 템플릿으로 전달하여 반영시키고, 최종적으로 클라이언트로 보낼 화면을 응답 결과로 전송하는 것이다.
+
+Spring MVC 구조
+
+  DispatcherServlet
+    
+      Front Controller 역할을 수행하며 Request를 각각의 Controller에게...</summary>
+
+  </entry>
 
   
   <entry>
@@ -168,47 +204,6 @@ ex) 로그인할 때 서버가 클라이언트에서 입력되는 아이디와 �
   service() 메서드는 요청 타입에 따라 적절한 메서드(doGet(), doPost())를 실행한다.
   서블릿은 비즈니스 로직을 수행하고, 결과 데이터를 HttpServletResponse 객체에 담는다.
   서블릿이 생성한 응답은 쓰레드에 의해 클라이언트로 반환한다.
-...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Thread와 Process</title>
-    <link href="http://localhost:4000/posts/Thread/" rel="alternate" type="text/html" title="Thread와 Process" />
-    <published>2025-01-09T00:00:00+09:00</published>
-  
-    <updated>2025-01-09T00:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Thread/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Thread/" />
-    <author>
-      <name>김현우</name>
-    </author>
-
-  
-    
-    <category term="CS" />
-    
-    <category term="Thread" />
-    
-    <category term="Process" />
-    
-  
-
-  <summary>프로세스(Process)
-프로세스는 프로그램을 실행시켜 정적인 프로그램이 동적으로 변하여 프로그램이 돌아가고 있는 상태를 말한다.
-즉, 컴퓨터에서 작업 중인 프로그램을 의미한다.
-(메모리에 적재되고 CPU 자원을 할당받아 프로그램이 실행되고 있는 상태)
-
-쓰레드(Thread)
-쓰레드란, 하나의 프로세스 내에서 동시에 진행되는 작업 갈래, 흐름의 단위를 말한다.
-ex) 브라우저에서 파일을 다운받으며 쇼핑, 게임을 할 수 있다.
-
-하나의 프로세스 안에서 여러가지 작업들 흐름이 동시에 진행될 수 있다.
-이런 작업 흐름들을 쓰레드라고 하며, 여러개가 있다면 이를 멀티 쓰레드라고 한다.
-
-일반적으로 하나의 프로그램은 하나 이상의 프로세스를 가지고 있고, 하나의 프로세스는 반드시 하나 이상의 쓰레드가 존재한다.
 ...</summary>
 
   </entry>
